@@ -1,0 +1,60 @@
+#logo {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.container {
+    width: 80%;
+     /* Center the DIV horizontally */
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+.fixed-header,
+.fixed-footer {
+    width: 100%;
+    position: fixed;
+    background: black;
+    padding: 10px 0;
+    color: #fff;
+}
+.fixed-header{
+    top: 0;
+}
+.fixed-footer {
+    bottom: 0;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+
+    body {
+    background-color: #fff;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: larger;
+ justify-content: right;
+}       
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+#mailing {
+    border: 10px black;
+}
+#tag {
+display: flex;
+justify-content: right;
+opacity: 90%;
+margin: 100px;
+
+}
+
+@media (max-width 915px) and (min-width 412px)     
+}
